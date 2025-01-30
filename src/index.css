@@ -1,0 +1,15 @@
+@import url("https://api.fontshare.com/v2/css?f[]=switzer@300,400,500&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --color-dark-gray-background: #1a1a1a; /* This is a very dark shade of gray */
+  --color-bright-red: #d94100;
+  --color-white: #ffffff;
+  --color-light-gray: #adadad;
+  --color-medium-gray: #5f5f5f;
+
+  --font-dm-sans: Switzer, sans-serif;
+
+  --breakpoint-xs: 480px;
+}
